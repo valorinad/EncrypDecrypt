@@ -12,6 +12,7 @@ function kriptimi(str, n) {
             output += alfabeti[n - diferenca];
         } else {
             output += alfabeti[index + n];
+
         }
     }
     return output;
@@ -29,6 +30,7 @@ function dekript(str, n) {
             output += alfabeti[alfabeti.length - diferenca];
         } else {
             output += alfabeti[index - n];
+            
         }
     }
     return output;
